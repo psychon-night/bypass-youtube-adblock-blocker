@@ -9,15 +9,14 @@ PC. You need to be using a browser like Firefox or Chrome
 1. Install uBlock Origin: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [Chrome/Edge](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 2. Open uBlock's settings, enable ALL filter lists and click "Apply changes"
 3. Update their filter lists by clicking "Purge all caches" and then "Update now". Then, click "Apply changes" (if it isn't grayed out)
-4. Download Request Interceptor: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/request-interceptor/) [Chrome/Edge](https://chrome.google.com/webstore/detail/request-interceptor/bfgblailifedppfilabonohepkofbkpm)
-5. Click "New Rule Group" and create a new rule. Set it to "When Request's URL equals"
-6. Open [this document](https://pastefy.app/G1Txv5su/raw) and copy the bottom-most URL (it ends with .js). At the time of writing, this is `https://www.youtube.com/s/desktop/000d7185/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js`
-7. Paste the URL into the "equals" (top) box of the rule you created
-8. In the bottom box, paste `https://www.youtube.com/s/desktop/38b2ce1b/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js`
-9. Click SAVE and ENABLE your new filter rule
-10. Reload YouTube using `Ctrl+Shift+R`
+4. Download Request Interceptor: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/request-interceptor/) [Chrome/Edge](https://chrome.google.com/webstore/detail/request-interceptor/bfgblailifedppfilabonohepkofbkpm). Open the extension.
+5. Click "New Rule Group" and create a new rule. Set it to "When Request's URL matches (regex)". Set the top box to `https://www.youtube.com/s/desktop/[A-Za-z0-9]+/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js`
+6. Set the action to "Redirect to" and set the URL to `https://raw.githubusercontent.com/psychon-night/bypass-youtube-adblock-blocker/main/desktop_polymer_enable_wil_icons.js`
+7. Create another rule, set it to "When request's URL equals". Set the top box to `https://raw.githubusercontent.com/psychon-night/bypass-youtube-adblock-blocker/main/desktop_polymer_enable_wil_icons.js`
+8. Set the second rule's action to `modify response header`. Set the "name" box to `content-type` and the value to `text/javascript`
+9. SAVE your rules, then ENABLE them
 
-# The YouTube URL you gave us doesn't work!!!! HELP!!!
-It's possible YouTube did some stupid bullshit and pulled that file off their server. Oh well.
+Once you're finished, it should look something like [this image](https://github.com/psychon-night/bypass-youtube-adblock-blocker/blob/main/Screenshot%20from%202023-10-16%2015-50-02.png)
 
-Use `https://raw.githubusercontent.com/psychon-night/bypass-youtube-adblock-blocker/main/desktop_polymer_enable_wil_icons.js` instead. They can't take that down ;)
+# I don't want to do it manually...
+Starting from newer versions of Request Interceptor, you can IMPORT rules. Download [this JSON file](https://github.com/psychon-night/bypass-youtube-adblock-blocker/blob/main/request-interceptor-rules.json) and click IMPORT on the request interceptor page. Then, upload the JSON file
