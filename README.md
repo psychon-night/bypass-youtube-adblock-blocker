@@ -19,4 +19,6 @@ PC. You need to be using a browser like Firefox or Chrome
 Once you're finished, it should look something like [this image](https://github.com/psychon-night/bypass-youtube-adblock-blocker/blob/main/Screenshot%20from%202023-10-16%2015-50-02.png)
 
 # I don't want to do it manually...
-Starting from newer versions of Request Interceptor, you can IMPORT rules. Download [this JSON file](https://github.com/psychon-night/bypass-youtube-adblock-blocker/blob/main/request-interceptor-rules.json) and click IMPORT on the request interceptor page. Then, upload the JSON file
+Starting from newer versions of Request Interceptor, you can IMPORT rules. Download [this JSON file](https://github.com/psychon-night/bypass-youtube-adblock-blocker/blob/main/request-interceptor-rules.json) and click IMPORT on the request interceptor page. Then, upload the JSON file. Make sure to SAVE and ENABLE the rules
+
+Happy YouTubing!
