@@ -1,0 +1,50 @@
+[
+	{
+		"enabled": true,
+		"id": "c91155a2-89ac-44e0-824f-7ca0c8f166a9",
+		"name": "YouTube Adblocker Bypass",
+		"filter": {
+			"key": "page-url",
+			"condition": "starts-with",
+			"value": ""
+		},
+		"rules": [
+			{
+				"enabled": true,
+				"id": "5551841c-b16b-43cc-9c2d-a08f7295659b",
+				"criteria": {
+					"key": "url",
+					"condition": "regex",
+					"value": "https://www.youtube.com/s/desktop/[A-Za-z0-9]+/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js"
+				},
+				"actions": [
+					{
+						"type": "redirect-to",
+						"details": {
+							"value": "https://raw.githubusercontent.com/psychon-night/bypass-youtube-adblock-blocker/main/desktop_polymer_enable_wil_icons.js"
+						}
+					}
+				]
+			},
+			{
+				"enabled": true,
+				"id": "f28fa4d9-5894-4ec8-9314-67abd5d541b8",
+				"criteria": {
+					"key": "url",
+					"condition": "equals",
+					"value": "https://raw.githubusercontent.com/psychon-night/bypass-youtube-adblock-blocker/main/desktop_polymer_enable_wil_icons.js"
+				},
+				"actions": [
+					{
+						"type": "modify-response-header",
+						"details": {
+							"name": "content-type",
+							"value": "text/javascript"
+						}
+					}
+				]
+			}
+		],
+		"description": "Youtube Adblocker Anti-Adblock"
+	}
+]
