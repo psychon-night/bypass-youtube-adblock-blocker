@@ -11,7 +11,7 @@ PC. You need to be using a browser like Firefox or Chrome
 3. Update their filter lists by clicking "Purge all caches" and then "Update now". Then, click "Apply changes" (if it isn't grayed out)
 4. Download Request Interceptor: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/request-interceptor/) [Chrome/Edge](https://chrome.google.com/webstore/detail/request-interceptor/bfgblailifedppfilabonohepkofbkpm)
 5. Click "New Rule Group" and create a new rule. Set it to "When Request's URL equals"
-6. Open [this document](https://pastefy.app/G1Txv5su/raw) and copy the bottom-most URL (it ends with .js). At the time of writing, this is `https://www.youtube.com/s/desktop/b7e9cd34/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js`
+6. Open [this document](https://pastefy.app/G1Txv5su/raw) and copy the bottom-most URL (it ends with .js). At the time of writing, this is `https://www.youtube.com/s/desktop/000d7185/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js`
 7. Paste the URL into the "equals" (top) box of the rule you created
 8. In the bottom box, paste `https://www.youtube.com/s/desktop/38b2ce1b/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js`
 9. Click SAVE and ENABLE your new filter rule
