@@ -27,7 +27,7 @@ A guide to blocking YouTube's anti-adblocking nonsense
 Once you're finished, it should look something like [this image](https://github.com/psychon-night/bypass-youtube-adblock-blocker/blob/main/Screenshot%20from%202023-10-16%2015-50-02.png)
 
 # JSON didn't work
-1. Open Request Interceptor. Sometimes this doesn't work. Try [this link (Firefox)](moz-extension://411c0429-1f7b-4a20-b4c5-9b9a6f8b8524/index.html) or [this link (Chromium)](chrome-extension://bfgblailifedppfilabonohepkofbkpm/index.html)
+1. Open Request Interceptor. Sometimes this doesn't work. Please check [this section](https://github.com/psychon-night/bypass-youtube-adblock-blocker?tab=readme-ov-file#help-request-inteceptors-settings-wont-open) for help
 2. Click "New Rule Group" and create a new rule. Set it to "When Request's URL matches (regex)". Set the top box to `https://www.youtube.com/s/desktop/[A-Za-z0-9]+/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js`
 6. Set the action to "Redirect to" and set the URL to `https://raw.githubusercontent.com/psychon-night/bypass-youtube-adblock-blocker/main/desktop_polymer_enable_wil_icons.js`
 7. Create another rule, set it to "When request's URL equals". Set the top box to `https://raw.githubusercontent.com/psychon-night/bypass-youtube-adblock-blocker/main/desktop_polymer_enable_wil_icons.js`
