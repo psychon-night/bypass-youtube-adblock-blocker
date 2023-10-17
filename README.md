@@ -17,7 +17,7 @@ A guide to blocking YouTube's anti-adblocking nonsense
 
 1. Open uBlock's settings and go to `Filter lists`. Make sure all filter lists are enabled, then click `Apply Changes`
 2. Click `Purge all caches`, then hit `Update now`. Wait for all filter lists to be updated
-3. Open Request Interceptor's settings. Sometimes this doesn't work. Please check [this section]() for help
+3. Open Request Interceptor's settings. Sometimes this doesn't work. Please check [this section](https://github.com/psychon-night/bypass-youtube-adblock-blocker?tab=readme-ov-file#help-request-inteceptors-settings-wont-open) for help
 4. Download [this JSON file](https://github.com/psychon-night/bypass-youtube-adblock-blocker/blob/main/request-interceptor-rules.json)
 5. On Request Interceptor's settings, hit IMPORT. Select the JSON file you downloaded and upload it
 6. Two rules should have appeared. Make sure they are both set to ON. There is also an additional toggle in the top-right of the page, make sure that is also enabled.
@@ -39,6 +39,6 @@ Happy YouTubing!
 
 # HELP! Request Inteceptor's settings won't open!!
 
-This is a known issue, the extension is poorly designed
+This is a known issue, the extension is poorly designed\
 For Firefox, open this link: moz-extension://411c0429-1f7b-4a20-b4c5-9b9a6f8b8524/index.html\
 For Chrome, Edge, and Chromium, use this link: chrome-extension://bfgblailifedppfilabonohepkofbkpm/index.html
