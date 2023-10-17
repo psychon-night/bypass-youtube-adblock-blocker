@@ -40,5 +40,5 @@ Happy YouTubing!
 # HELP! Request Inteceptor's settings won't open!!
 
 This is a known issue, the extension is poorly designed
-For Firefox, open this link: moz-extension://411c0429-1f7b-4a20-b4c5-9b9a6f8b8524/index.html
+For Firefox, open this link: moz-extension://411c0429-1f7b-4a20-b4c5-9b9a6f8b8524/index.html\
 For Chrome, Edge, and Chromium, use this link: chrome-extension://bfgblailifedppfilabonohepkofbkpm/index.html
