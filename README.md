@@ -5,7 +5,7 @@ A guide to blocking YouTube's anti-adblocking nonsense
 - PC (Windows, Linux, Mac), using Firefox, Chrome, Edge, or another [chromium-based browser](https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium)
 - Android using Firefox or Chrome*
 
-* Untested, results may vary
+\* Untested, results may vary
 
 # Pre-Requisites
 - Fully up-to-date browser
