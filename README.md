@@ -1,6 +1,11 @@
 # bypass-youtube-adblock-blocker
 A guide to blocking YouTube's anti-adblocking nonsense
 
+# NOTICE
+
+We are aware of the new methods YouTube is using to get around hacks like this. We know exactly what they're doing and how they're doing it, and are working on a solution\
+Please keep an eye out for any updates from us
+
 # Supported Environments
 - PC (Windows, Linux, Mac), using Firefox, Chrome, Edge, or another [chromium-based browser](https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium)
 - Android using Firefox or Chrome*
