@@ -1,14 +1,10 @@
 # bypass-youtube-adblock-blocker
 A guide to blocking YouTube's anti-adblocking nonsense
 
-# NOTICE
+## NOTICE UPDATE 1
 
-We are aware of the new methods YouTube is using to get around hacks like this. We know exactly what they're doing and how they're doing it, and are working on a solution\
-Please keep an eye out for any updates from us
-
-## UPDATE 1
-
-Upon further investigation, this new issue appears to be a test limited to a small portion of YouTube members. We'll be keeping an eye out on how the situation progresses
+The awesome-sauce uBlock development team has fixed a few issues on their end. Please take a look at this [reddit post](https://www.reddit.com/r/Adblock/comments/17fnm8e/ublock_origin_youtube_antiadblock_patch_october_24/) and follow their instructions.\
+NOTE: You only need this if you've gotten the `disable_desktop_polymer` update, which you can check using the DevTools (Ctrl+Shift+I) network page
 
 # Supported Environments
 - PC (Windows, Linux, Mac), using Firefox, Chrome, Edge, or another [chromium-based browser](https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium)
